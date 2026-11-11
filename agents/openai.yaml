@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ontslop"
+  short_description: "Haal AI-patronen uit Nederlandse tekst en interfaces"
+  default_prompt: "Gebruik $ontslop op deze tekst of pagina: vind de AI-patronen en herstel ze zonder feiten of stem te veranderen."
