@@ -29,7 +29,8 @@ pagina wel.
 | Afbeeldingen van robots, breinen, hologrammen | `stockbeeld` | Wat het product doet of maakt |
 | "Edit with Lovable" en dergelijke | `generator` | Weg uit wat bezoekers zien |
 
-Structureel, niet met een regel te vinden:
+Structureel. De scanner meldt alleen een vermoeden (`standaardsjabloon`, een
+`<h1>` gevolgd door `grid-cols-3`); de rest moet je zelf zien:
 
 - Gecentreerde hero, daaronder drie kaarten met een icoon in een afgerond
   vierkant, daaronder een rij logo's, daaronder drie testimonials,

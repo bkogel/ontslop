@@ -1185,7 +1185,14 @@ export function segmenten(bron, extensie) {
       const stukken = [
         ...zonderStrings.matchAll(/>\s*([^<>{}]*\p{L}[^<>{}]*?)\s*(?=<|\{|$)/gu),
       ].map((m) => m[1]);
-      if (!/[<>{}()=;:,"'`]/.test(zonderStrings) && woordtelling(zonderStrings) >= 3)
+      // Een regel met alleen tekst: JSX-tekst over meerdere regels. Kort mag,
+      // als de regel erboven een tag opent (zoals een knop met "Aan de slag").
+      const vorige = (regels[i - 1] ?? "").trim();
+      if (
+        !/[<>{}()=;:,"'`]/.test(zonderStrings) &&
+        (woordtelling(zonderStrings) >= 3 ||
+          (woordtelling(zonderStrings) >= 1 && /^<[A-Za-z][^>]*>$/.test(vorige)))
+      )
         stukken.push(zonderStrings.trim());
       for (const s of stukken) {
         if (gezien.has(s) || lijktOpKlassen(s) || woordtelling(s) === 0) continue;
@@ -1326,6 +1333,30 @@ export function analyseerBestand(bron, extensie) {
         }
       }
     });
+
+    // Het standaardsjabloon: een gecentreerde hero met daaronder drie kaarten.
+    // Een vermoeden, geen zekerheid; daarom laag.
+    const h1 = bron.search(/<h1[\s>]/);
+    const drie = bron.search(/\b(?:(?:sm|md|lg):)?grid-cols-3\b/);
+    if (
+      h1 !== -1 &&
+      drie > h1 &&
+      /\btext-center\b|\bitems-center\b[^"'`]*\bflex-col\b/.test(bron)
+    ) {
+      const regel = bron.slice(0, drie).split("\n").length;
+      if (!negeer(regels, regel - 1))
+        vondsten.push({
+          id: "standaardsjabloon",
+          groep: "ontwerp",
+          ernst: "laag",
+          naam: "Gecentreerde hero met drie kaarten",
+          uitleg:
+            "Het sjabloon van bijna elke gegenereerde pagina: kop in het midden, daaronder drie kaarten met een icoon.",
+          fix: "Laat de opbouw volgen uit wat het product moet laten zien. Twee of vier dingen, een echt scherm, een lijst: wat er echt is.",
+          regel,
+          fragment: "<h1> … grid-cols-3",
+        });
+    }
 
     // Nepvensterknopjes: rood, geel en groen rondje vlak na elkaar.
     const knopjes =

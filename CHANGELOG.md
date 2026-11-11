@@ -12,6 +12,6 @@ Eerste versie.
   overcorrectie.
 - Naslag over Nederlands in interfaces: je of u, samenstellingen,
   woordvolgorde, hoofdletters, notatie, knoppen en voorbeelddata.
-- Scanner zonder afhankelijkheden (`scripts/ontslop.mjs`) met 64 regels voor
+- Scanner zonder afhankelijkheden (`scripts/ontslop.mjs`) met 65 regels voor
   tekst, taal en ontwerp. Dezelfde regels draaien in de online checker op
   handelai.nl/tools/ontslop.
