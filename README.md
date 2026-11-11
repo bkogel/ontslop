@@ -92,4 +92,4 @@ hand.
 
 ## Bronnen
 
-Zie `LICENSE.md` voor de werken waar Ontslop op voortbouwt.
+Zie `VERMELDINGEN.md` voor de werken waar Ontslop op voortbouwt. De licentie (CC BY 4.0) staat in `LICENSE`.

@@ -1,4 +1,4 @@
-# Licentie
+# Licentie en vermeldingen
 
 Ontslop © 2026 HandelAI (https://handelai.nl/tools/ontslop)
 
@@ -9,7 +9,7 @@ Dit werk valt onder de Creative Commons Naamsvermelding 4.0 Internationaal
 - aangeeft of je iets hebt veranderd;
 - de vermeldingen hieronder laat staan.
 
-Volledige tekst: https://creativecommons.org/licenses/by/4.0/legalcode.nl
+Volledige tekst: zie `LICENSE`, of https://creativecommons.org/licenses/by/4.0/legalcode.nl
 
 ## Vermeldingen
 
