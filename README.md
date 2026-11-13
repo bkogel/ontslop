@@ -19,7 +19,7 @@ CC BY 4.0. Broncode: [github.com/bkogel/ontslop](https://github.com/bkogel/ontsl
 | `references/tekst.md` | 34 schrijfpatronen met voor en na |
 | `references/nederlands.md` | Nederlands in tekst en interface: je of u, samenstellingen, notatie, knoppen |
 | `references/interface.md` | Ontwerppatronen in drie lagen, en de volgorde om ze te herstellen |
-| `references/stem.md` | Een natuurlijke zakelijke stem om naartoe te schrijven, uit echte mails |
+| `references/stem.md` | Een natuurlijke zakelijke stem om naartoe te schrijven, voor elke branche |
 | `scripts/ontslop.mjs` | De scanner |
 | `scripts/regels.mjs` | De regels, ook bruikbaar als module |
 | `voorbeelden/` | Een tekst en een component vol patronen, en de tekst hersteld |

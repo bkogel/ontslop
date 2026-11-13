@@ -3,11 +3,10 @@
 # Een natuurlijke zakelijke stem
 
 De andere bestanden zeggen wat er weg moet. Dit bestand zegt waar je naartoe
-schrijft. Het beschrijft hoe iemand schrijft die elke dag mailt met klanten,
+schrijft. Het beschrijft hoe mensen schrijven die elke dag mailen met klanten,
 leveranciers en collega's: snel, vriendelijk, concreet, zonder iets te
-verkopen. De patronen komen uit een reeks echte zakelijke mails van
-één schrijver, samengevat en met verzonnen voorbeeldzinnen zonder namen of
-projecten.
+verkopen. Dat werkt in elke branche, van installateur tot boekhouder, van
+webshop tot kwekerij. Alle voorbeelden zijn verzonnen.
 
 ## Wanneer je dit gebruikt
 
@@ -18,6 +17,19 @@ projecten.
 
 Heeft de schrijver wel een eigen stem, dan blijft die. Dit is een richting
 voor als je zelf moet kiezen, geen sjabloon om over iemands tekst te leggen.
+
+## Pas het aan op de lezer
+
+De houding hieronder blijft gelijk, de toon schuift mee met wie er leest.
+
+- Spreekt de branche of de klant met u (notaris, zorg, overheid, oudere
+  klanten), schrijf dan u. De rest van dit bestand geldt nog steeds.
+- Engelse leenwoorden als thanks en top passen bij een team of een vaste
+  klant, niet bij een eerste brief aan een gemeente.
+- Gebruikt het bedrijf eigen woorden voor zijn producten of diensten, neem
+  die over. Een kweker levert partijen, een installateur doet een opname.
+- Voorbeelden en vaktermen komen uit de branche van de schrijver, niet uit
+  de voorbeelden in dit bestand.
 
 ## De houding
 
@@ -47,11 +59,11 @@ Wat klaar is, schrijf je als iets dat gebeurd is. Het woordje "nu" doet veel:
 het zegt dat het er sinds kort is.
 
 - "Dit is nu toegevoegd."
-- "Dat heb ik nu aangepast, je ziet het als je de pagina ververst."
+- "Dat heb ik nu aangepast in de offerte, je krijgt hem zo opnieuw."
 - "Het zou nu goed moeten gaan."
-- "Staat over een paar minuten live."
+- "Gaat morgen met de eerste rit mee."
 
-Niet: "Deze functionaliteit is succesvol geïmplementeerd." Niet: "Ik heb
+Niet: "Uw aanvraag is succesvol verwerkt." Niet: "Ik heb
 ervoor gezorgd dat alles naadloos werkt."
 
 ## Zeg eerlijk hoe zeker je bent
@@ -60,12 +72,12 @@ Een mens weet niet alles zeker en zegt dat ook. Een model klinkt altijd even
 stellig. Gebruik de kleine twijfelwoorden die mensen echt gebruiken:
 
 - "Als het goed is kan je nu ook ..."
-- "Ik vermoed dat het aan de browser ligt."
-- "Volgens mij gaat het om de tweede regel."
-- "Ik gok dat het een oude export was."
+- "Ik vermoed dat het aan de levering van dinsdag ligt."
+- "Volgens mij gaat het om de tweede regel op de factuur."
+- "Ik gok dat het een oude prijslijst was."
 
-Leg een oorzaak uit in één zin, zonder omhaal: "Die foutmeldingen kwamen
-doordat de koppeling twee keer liep." Klopte je eerste uitleg niet, zeg dat
+Leg een oorzaak uit in één zin, zonder omhaal: "Dat verschil kwam
+doordat de order twee keer was ingevoerd." Klopte je eerste uitleg niet, zeg dat
 dan ook: "Het kwam niet daardoor maar doordat ..."
 
 Een fout van jezelf benoem je kort en gewoon: "Dat was een vergissing van mijn
@@ -110,7 +122,7 @@ Niet: "Zou het wellicht mogelijk zijn om, indien het uitkomt, ...". Niet:
 - Lang en kort door elkaar. Een lange zin met een paar komma's achter
   elkaar, gevolgd door een korte. Zo denk je ook.
 - Lijstjes alleen als er een lijst is. Stuurde iemand vijf punten, dan
-  antwoord je met vijf punten, kort per punt: "- Het menu: staat nu bovenaan."
+  antwoord je met vijf punten, kort per punt: "- Bezorgdatum: is nu donderdag."
   Een gewoon verhaal zet je niet in bullets.
 - Verwijs naar wat de ander vroeg. "Zie hieronder de antwoorden op je
   vragen:", "En over je eerste punt:".
@@ -118,7 +130,7 @@ Niet: "Zou het wellicht mogelijk zijn om, indien het uitkomt, ...". Niet:
   het volgende week meenemen."
 - **Een plan mag genummerd**, met per stap één zin uitleg.
 - Concreet. Wat er veranderd is, waar je het vindt, wat de ander moet
-  doen. Liever "onder Instellingen, tweede tab" dan "in het systeem".
+  doen. Liever "in de bijlage, op pagina 2" dan "in de documenten".
 - Zeg wanneer de volgende stap komt. "Ik kijk er morgen even verder naar
   en hoop je dan een definitief advies te kunnen geven."
 
@@ -150,7 +162,7 @@ antwoord aan iemand die je kent volstaat de voornaam, of zelfs niets.
   feedback, cc. Niet als stijltrucje, alleen waar het natuurlijk is.
 - Bijna geen uitroeptekens. Hooguit één, in een vriendelijke afsluiting.
 - Geen gedachtestreepjes. Een komma of een punt.
-- Een pijl mag in een korte instructie: "Instellingen --> Gebruikers".
+- Een pijl mag in een korte instructie: "Mijn account --> Facturen".
 - Geen marketingwoorden. Geen "graag help ik je verder", "naadloos",
   "optimaal", "met trots presenteren we".
 - Geen samenvatting aan het eind. Wat er staat, staat er.
@@ -164,7 +176,7 @@ De stem zit in de keuzes hierboven, niet in de fouten.
 
 ## Voorbeeld
 
-Een antwoord op een klant die drie problemen meldde.
+Een antwoord aan een klant die drie dingen meldde over een bestelling.
 
 **Model:**
 
@@ -175,9 +187,9 @@ Een antwoord op een klant die drie problemen meldde.
 > zorgvuldig geanalyseerd en ben blij je te kunnen melden dat ze allemaal
 > succesvol zijn opgelost:
 >
-> 1. **Inloggen:** Het inlogprobleem is verholpen.
-> 2. **Export:** De exportfunctie werkt nu naadloos.
-> 3. **Meldingen:** Meldingen worden weer correct verstuurd.
+> 1. **Aantallen:** De aantallen zijn gecorrigeerd.
+> 2. **Factuur:** De factuur is naadloos aangepast.
+> 3. **Bezorging:** De bezorgtijd wordt voortaan correct gecommuniceerd.
 >
 > Mocht je nog vragen hebben, aarzel dan niet om contact op te nemen!
 >
@@ -189,11 +201,11 @@ Een antwoord op een klant die drie problemen meldde.
 >
 > Thanks, ik heb ze alle drie bekeken en ze zijn nu opgelost.
 >
-> - Inloggen: dat kwam doordat je sessie na een update niet werd ververst. Als
->   je één keer opnieuw inlogt zou het weer goed moeten gaan.
-> - Export: werkt nu weer, ook voor de oudere bestellingen.
-> - Meldingen: daar ging iets mis aan mijn kant, ik had de verkeerde
->   instelling aangezet. Staat nu goed.
+> - Aantallen: dat kwam doordat je order twee keer was ingevoerd. De dubbele
+>   regels zijn eruit, je krijgt het verschil volgende week mee.
+> - Factuur: is nu aangepast, de nieuwe zit in de bijlage.
+> - Bezorging: daar ging iets mis aan onze kant, de rit was verkeerd
+>   ingepland. Vanaf maandag sta je weer tussen 8 en 10 uur op de lijst.
 >
 > Laat maar weten als je nog iets tegenkomt.
 >

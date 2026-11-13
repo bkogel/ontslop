@@ -83,13 +83,13 @@ Bepaal eerst wat er gevraagd wordt.
 | **schrijven** | Een nieuwe mail, update, antwoord of tekst die als een mens moet klinken | `references/stem.md`, daarna `tekst.md` en `nederlands.md` als controle |
 
 Vraagt iemand alleen om een controle ("zit hier AI in?", "check dit"),
-rapporteer dan en verander niets.
+rapporteer dan en verander niets. Vraagt iemand om herschrijven of
+opknappen, volg dan de werkwijze hieronder.
 
 Weghalen is de helft. `references/stem.md` beschrijft waar je naartoe
-schrijft: een natuurlijke zakelijke stem, gehaald uit echte mails. Gebruik
+schrijft: een natuurlijke zakelijke stem die in elke branche werkt. Gebruik
 die bij nieuwe tekst en bij een herschrijving waar geen eigen stem meer in
-zat. Heeft de schrijver wel een eigen stem, dan wint die. Vraagt iemand om herschrijven of
-opknappen, volg dan de werkwijze hieronder.
+zat. Heeft de schrijver wel een eigen stem, dan wint die.
 
 ## Werkwijze
 
