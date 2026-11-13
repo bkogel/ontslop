@@ -1,5 +1,13 @@
 # Wijzigingen
 
+## 1.1.0 (13 november 2026)
+
+- Nieuw: `references/stem.md`, een natuurlijke zakelijke stem om naartoe te
+  schrijven. Gehaald uit echte zakelijke mails: beginnen met de stand van
+  zaken, status in de voltooide tijd met "nu", eerlijk zijn over twijfel, de
+  kleine woorden (even, alvast, wel), aanhef en afsluiting per relatie.
+- Nieuwe modus **schrijven** in de skill, voor nieuwe mails en updates.
+
 ## 1.0.0 (11 november 2026)
 
 Eerste versie.

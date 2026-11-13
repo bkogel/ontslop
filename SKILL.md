@@ -1,12 +1,12 @@
 ---
 name: ontslop
-description: Haalt de sporen van AI uit Nederlandse teksten en interfaces. Vindt en herstelt de patronen waaraan lezers zien dat een model heeft meegeschreven of meegebouwd. In tekst gaat het om "niet X, maar Y", vraagjes als "Het resultaat?", aanlopen als "In een wereld waarin", drieslagen, gedachtestreepjes, AI-woorden als cruciaal, naadloos en robuust, en Nederlands met Engelse bouw ("Daarom, we hebben", "AI oplossing", "€1,250.50", Hoofdletters Op Elk Woord). In interfaces gaat het om paars-blauwe verlopen, gloed, hoofdletterlabels, emoji in knoppen, crème met terracotta, Engelse knoppen op een Nederlandse site. Ook de overcorrecties van andere anti-slop-skills worden herkend. Bevat een scanner zonder afhankelijkheden. Gebruik deze skill bij Nederlandse teksten, websites, landingspagina's, apps, e-mails of LinkedIn-posts die "naar AI ruiken", bij verzoeken om te ontslopen, te humaniseren, natuurlijker te laten klinken of te controleren op AI-patronen, en bij elke Nederlandstalige interface die je ontwerpt of nakijkt.
+description: Haalt de sporen van AI uit Nederlandse teksten en interfaces. Vindt en herstelt de patronen waaraan lezers zien dat een model heeft meegeschreven of meegebouwd. In tekst gaat het om "niet X, maar Y", vraagjes als "Het resultaat?", aanlopen als "In een wereld waarin", drieslagen, gedachtestreepjes, AI-woorden als cruciaal, naadloos en robuust, en Nederlands met Engelse bouw ("Daarom, we hebben", "AI oplossing", "€1,250.50", Hoofdletters Op Elk Woord). In interfaces gaat het om paars-blauwe verlopen, gloed, hoofdletterlabels, emoji in knoppen, crème met terracotta, Engelse knoppen op een Nederlandse site. Ook de overcorrecties van andere anti-slop-skills worden herkend. Bevat een scanner zonder afhankelijkheden. Gebruik deze skill bij Nederlandse teksten, websites, landingspagina's, apps, e-mails of LinkedIn-posts die "naar AI ruiken", bij verzoeken om te ontslopen, te humaniseren, natuurlijker te laten klinken of te controleren op AI-patronen, en bij elke Nederlandstalige interface die je ontwerpt of nakijkt. Ook voor het schrijven van nieuwe zakelijke mails en updates in een natuurlijke stem.
 license: CC-BY-4.0
 metadata:
   author: HandelAI
   site: https://handelai.nl/tools/ontslop
   source: https://github.com/bkogel/ontslop
-  version: 1.0.0
+  version: 1.1.0
   language: nl
 ---
 
@@ -80,9 +80,15 @@ Bepaal eerst wat er gevraagd wordt.
 | **tekst** | Blog, mail, post, productomschrijving, rapport, websitekopij | `references/tekst.md` en `references/nederlands.md` |
 | **interface** | Een pagina, component of app | `references/interface.md` en `references/nederlands.md` |
 | **beide** | Een hele site of landingspagina | Alle drie |
+| **schrijven** | Een nieuwe mail, update, antwoord of tekst die als een mens moet klinken | `references/stem.md`, daarna `tekst.md` en `nederlands.md` als controle |
 
 Vraagt iemand alleen om een controle ("zit hier AI in?", "check dit"),
-rapporteer dan en verander niets. Vraagt iemand om herschrijven of
+rapporteer dan en verander niets.
+
+Weghalen is de helft. `references/stem.md` beschrijft waar je naartoe
+schrijft: een natuurlijke zakelijke stem, gehaald uit echte mails. Gebruik
+die bij nieuwe tekst en bij een herschrijving waar geen eigen stem meer in
+zat. Heeft de schrijver wel een eigen stem, dan wint die. Vraagt iemand om herschrijven of
 opknappen, volg dan de werkwijze hieronder.
 
 ## Werkwijze
@@ -175,6 +181,7 @@ Tekst:
 - [ ] Nederlandse woordvolgorde, samenstellingen aaneen, notatie klopt
 - [ ] Geen chatrestanten ("Hier is een herschreven versie")
 - [ ] Geen overcorrectie: geen "Eerlijk?", geen verzonnen details
+- [ ] Eerste zin zegt de stand van zaken, slot houdt de deur open zonder samenvatting
 
 Interface:
 
